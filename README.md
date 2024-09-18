@@ -2,6 +2,7 @@
 
 Bred Stickers is a custom-built WordPress theme designed specifically for client. This README guide is intended to help developers quickly understand how to set up and start the development process in a local environment.
 
+![BRed_logo 1](https://github.com/user-attachments/assets/577f7c1f-815a-496b-ae71-2b64087cea74)
 
 
 ## Features
