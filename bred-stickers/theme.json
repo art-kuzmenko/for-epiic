@@ -1,0 +1,376 @@
+{
+  "version": 1,
+  "settings": {
+    "layout": {
+      "contentSize": "1280px",
+			"wideSize": "1440px"
+    },
+    "color": {
+      "palette": [
+        {
+          "name": "Primary",
+          "slug": "primary",
+          "color": "#0EA5E9"
+        },
+        {
+          "name": "Secondary",
+          "slug": "secondary",
+          "color": "#14B8A6"
+        },
+        {
+          "name": "Dark",
+          "slug": "dark",
+          "color": "#000000"
+        },
+        {
+          "name": "Dark secondary",
+          "slug": "dark-secondary",
+          "color": "#1D1D1B"
+        },
+        {
+          "name": "Light",
+          "slug": "light",
+          "color": "#FBFBF9"
+        }
+      ]
+    },
+    "typography": {
+			"dropCap": false,
+			"fluid": true,
+			"fontFamilies": [
+				{
+					"fontFamily": "JetBrains Mono, sans-serif",
+					"name": "Jetbrains",
+					"slug": "jetbrains",
+					"fontFace": [
+						{
+							"fontFamily": "Jetbrains",
+							"fontWeight": "800",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"fontDisplay": "block",
+							"src": [
+								"file:./fonts/jetbrains/jetbrains-mono-v18-cyrillic_latin-800.woff2"
+							]
+						}
+					]
+				},
+        {
+					"fontFamily": "Averta Demo PE, sans-serif",
+					"name": "Averta",
+					"slug": "averta",
+					"fontFace": [
+						{
+							"fontFamily": "Averta",
+							"fontWeight": "900",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"fontDisplay": "block",
+							"src": [
+								"file:./fonts/averta/averta.woff2"
+							]
+						}
+					]
+				},
+        {
+					"fontFamily": "Gilroy, sans-serif",
+					"name": "Gilroy",
+					"slug": "gilroy",
+					"fontFace": [
+						{
+							"fontFamily": "Gilroy",
+							"fontWeight": "900",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"fontDisplay": "block",
+							"src": [
+								"file:./fonts/gilroy/Gilroy-ExtraBold.woff2"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "Inter, sans-serif",
+					"name": "Inter",
+					"slug": "inter",
+					"fontFace": [
+						{
+							"fontFamily": "Inter",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"fontDisplay": "block",
+							"src": [
+								"file:./fonts/inter/inter-v18-cyrillic_latin-700.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontWeight": "800",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"fontDisplay": "block",
+							"src": [
+								"file:./fonts/inter/inter-v18-cyrillic_latin-800.woff2"
+							]
+						}
+					]
+				}
+			],
+			"fontSizes": [
+				{
+					"fluid": false,
+					"name": "Extra Small",
+					"size": "12px",
+					"slug": "x-small"
+				},
+				{
+					"fluid": false,
+					"name": "Small",
+					"size": "14px",
+					"slug": "small"
+				},
+				{
+					"fluid": false,
+					"name": "Medium",
+					"size": "16px",
+					"slug": "medium"
+				},
+				{
+					"fluid": {
+						"min": "20px",
+						"max": "24px"
+					},
+					"name": "Large",
+					"size": "24px",
+					"slug": "large"
+				},
+				{
+					"fluid": {
+						"min": "32px",
+						"max": "40px"
+					},
+					"name": "xLarge",
+					"size": "40px",
+					"slug": "x-large"
+				},
+				{
+					"fluid": {
+						"min": "50px",
+						"max": "56px"
+					},
+					"name": "Heading 1",
+					"size": "50px",
+					"slug": "heading-1"
+				},
+				{
+					"fluid": {
+						"min": "44px",
+						"max": "48px"
+					},
+					"name": "Heading 2",
+					"size": "48px",
+					"slug": "heading-2"
+				},
+				{
+					"fluid": {
+						"min": "36px",
+						"max": "40px"
+					},
+					"name": "Heading 3",
+					"size": "40px",
+					"slug": "heading-3"
+				},
+				{
+					"fluid": {
+						"min": "28px",
+						"max": "32px"
+					},
+					"name": "Heading 4",
+					"size": "32px",
+					"slug": "heading-4"
+				},
+				{
+					"fluid": {
+						"min": "20px",
+						"max": "24px"
+					},
+					"name": "Heading 5",
+					"size": "24px",
+					"slug": "heading-5"
+				},
+				{
+					"fluid": {
+						"min": "16px",
+						"max": "20px"
+					},
+					"name": "Heading 6",
+					"size": "20px",
+					"slug": "heading-6"
+				},
+				{
+					"fluid": false,
+					"name": "11px",
+					"size": "11px",
+					"slug": "font-11px"
+				},
+				{
+					"fluid": false,
+					"name": "12px",
+					"size": "12px",
+					"slug": "font-12px"
+				},
+				{
+					"fluid": false,
+					"name": "14px",
+					"size": "14px",
+					"slug": "font-14px"
+				},
+				{
+					"fluid": false,
+					"name": "16px",
+					"size": "16px",
+					"slug": "font-16px"
+				},
+				{
+					"fluid": false,
+					"name": "18px",
+					"size": "18px",
+					"slug": "font-18px"
+				},
+				{
+					"fluid": false,
+					"name": "20px",
+					"size": "20px",
+					"slug": "font-20px"
+				},
+				{
+					"fluid": {
+						"min": "20px",
+						"max": "24px"
+					},
+					"name": "24px",
+					"size": "24px",
+					"slug": "font-24px"
+				},
+				{
+					"fluid": {
+						"min": "22px",
+						"max": "26px"
+					},
+					"name": "26px",
+					"size": "26px",
+					"slug": "font-26px"
+				},
+				{
+					"fluid": {
+						"min": "24px",
+						"max": "28px"
+					},
+					"name": "28px",
+					"size": "28px",
+					"slug": "font-28px"
+				},
+				{
+					"fluid": {
+						"min": "28px",
+						"max": "32px"
+					},
+					"name": "32px",
+					"size": "32px",
+					"slug": "font-32px"
+				},
+				{
+					"fluid": {
+						"min": "30px",
+						"max": "36px"
+					},
+					"name": "36px",
+					"size": "36px",
+					"slug": "font-36px"
+				},
+				{
+					"fluid": {
+						"min": "36px",
+						"max": "40px"
+					},
+					"name": "40px",
+					"size": "40px",
+					"slug": "font-40px"
+				},
+				{
+					"fluid": {
+						"min": "36px",
+						"max": "42px"
+					},
+					"name": "42px",
+					"size": "42px",
+					"slug": "font-42px"
+				},
+				{
+					"fluid": {
+						"min": "36px",
+						"max": "44px"
+					},
+					"name": "44px",
+					"size": "44px",
+					"slug": "font-44px"
+				},
+				{
+					"fluid": {
+						"min": "36px",
+						"max": "46px"
+					},
+					"name": "46px",
+					"size": "46px",
+					"slug": "font-46px"
+				},
+				{
+					"fluid": {
+						"min": "36px",
+						"max": "48px"
+					},
+					"name": "48px",
+					"size": "48px",
+					"slug": "font-48px"
+				},
+				{
+					"fluid": {
+						"min": "40px",
+						"max": "56px"
+					},
+					"name": "56px",
+					"size": "56px",
+					"slug": "font-56px"
+				},
+				{
+					"fluid": {
+						"min": "48px",
+						"max": "64px"
+					},
+					"name": "64px",
+					"size": "64px",
+					"slug": "font-64px"
+				},
+				{
+					"fluid": {
+						"min": "48px",
+						"max": "72px"
+					},
+					"name": "72px",
+					"size": "72px",
+					"slug": "font-72px"
+				},
+				{
+					"fluid": {
+						"min": "56px",
+						"max": "96px"
+					},
+					"name": "96px",
+					"size": "96px",
+					"slug": "font-96px"
+				}
+			]
+		}
+  }
+}
